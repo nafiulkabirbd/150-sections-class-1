@@ -20,12 +20,13 @@
 /* appointment style start */
 .appointment-container {
   display: flex;
+  height: 100vh;
 }
 
 .form-container {
-  min-width: 60%;
+  min-width: 70%;
   flex: 1;
-  padding: 40px;
+  padding: 200px 40px;
   background-color: #31d6be;
   opacity: 0.8;
 }
@@ -37,7 +38,7 @@
   transform: rotate(270deg);
   position: absolute;
   left: -15px;
-  top: 105px;
+  top: 265px;
 }
 
 form {
@@ -76,9 +77,9 @@ textarea {
 }
 
 .info-container {
-  min-width: 40%;
+  min-width: 30%;
   flex: 1;
-  padding: 40px;
+  padding: 200px 40px;
 }
 
 .info-title {
@@ -112,4 +113,28 @@ textarea {
   border-radius: 4px;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+/* responsive style start */
+@media (max-width: 768px) {
+  .appointment-container {
+    flex-direction: column;
+  }
+
+  .form-container {
+    padding: 40px;
+  }
+
+  .vertical-text {
+    left: -15px;
+    top: 105px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .info-container {
+    padding: 40px;
+  }
 }
