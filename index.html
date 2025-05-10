@@ -5,8 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Appointment Form</title>
 
+    <!-- font awesome kit link start -->
+    <script
+      src="https://kit.fontawesome.com/f6f4349f8f.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- css link start -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="appointment-section">
+      <div class="appointment-container">
+        <div class="contact form">
+          <h2>Appointment</h2>
+          <form action="">
+            <div>
+              <input
+                type="text"
+                name="first-name"
+                id="first_name"
+                placeholder="First name*"
+              />
+              <input
+                type="text"
+                name="last-name"
+                id="last_name"
+                placeholder="Last name*"
+              />
+            </div>
+            <div>
+              <input type="tel" name="tel" id="tel" placeholder="Phone*" />
+
+              <input type="date" name="date" id="date placeholder="Date*">
+            </div>
+
+            <p>
+              <textarea name="text-area" id="text_area">Observation</textarea>
+            </p>
+
+            <p><input type="submit" value="Make Appointment" /></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="appointment-text-container">
+        <h3>
+          We eliminate the inconvenience <br />
+          of multiple visits
+        </h3>
+      </div>
+    </section>
+  </body>
 </html>
