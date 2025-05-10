@@ -3,4 +3,43 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* google font style */
+.poppins-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* appointment style start */
+.appointment-container {
+  display: flex;
+}
+
+.form-container {
+  min-width: 60%;
+  flex: 1;
+  padding: 40px;
+  background-color: #31d6be;
+  opacity: 0.8;
+}
+
+.vertical-text {
+  font-size: 24px;
+  font-weight: 700;
+  transform: rotate(270deg);
+  position: absolute;
+  left: -15px;
+  top: 105px;
+}
+
+form {
+  max-width: 500px;
+  margin-left: 50px;
 }
