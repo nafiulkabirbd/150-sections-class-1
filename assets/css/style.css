@@ -26,7 +26,7 @@
 .form-container {
   min-width: 70%;
   flex: 1;
-  padding: 200px 40px;
+  padding: 200px 0px 0px 200px;
   background-color: #31d6be;
   opacity: 0.8;
 }
@@ -37,7 +37,7 @@
   font-weight: 700;
   transform: rotate(270deg);
   position: absolute;
-  left: -15px;
+  left: 125px;
   top: 265px;
 }
 
